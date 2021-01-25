@@ -1,0 +1,224 @@
+.custom-dialog {
+  position: relative;
+  height: auto;
+  max-width: 1104px;
+  padding: 48px 36px 8px 36px;
+  background: #fff;
+
+  &.v-dialog {
+    border-radius: 0;
+
+    .btn-close {
+      position: absolute;
+      top: 7px;
+      right: 45px;
+
+      .v-icon {
+        color: #000;
+      }
+    }
+
+    .dialog-body {
+      .dots {
+        color: #000;
+      }
+    }
+
+    .image-block {
+      position: relative;
+      padding: 0;
+
+      &:hover,
+      &:focus {
+        .action-block {
+          display: block;
+          visibility: visible;
+        }
+      }
+    }
+
+    .main-img {
+      max-height: 644px;
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 37px;
+      cursor: pointer;
+    }
+
+    .action-block {
+      display: none;
+      visibility: hidden;
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 9;
+
+      .v-btn--icon {
+        width: 39px;
+        height: 32px;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+        transition: all .1s ease-in-out;
+        background-color: $light-gray;
+
+        &.btn-like {
+          &.btn-active {
+            background-color: #f15151;
+
+            .v-icon {
+              color: #fff;
+            }
+          }
+        }
+
+        &.btn-add {
+          &.btn-active {
+            background-color: $main-color;
+
+            .v-icon {
+              color: #fff;
+            }
+          }
+        }
+
+        &.v-size--default {
+          .v-icon {
+            font-size: 20px;
+            color: $dark-gray;
+          }
+        }
+
+        &:hover,
+        &:focus {
+          .v-icon {
+            color: #fff;
+          }
+        }
+      }
+
+      .custom-alert {
+        max-width: 250px;
+      }
+
+      .collections-alert {
+        .v-card__title {
+          &:hover,
+          &:focus {
+            background-color: $light-gray;
+            color: #fff;
+          }
+        }
+      }
+    }
+
+    .v-avatar {
+      margin-right: 25px;
+      cursor: pointer;
+      -webkit-transform-delay: 0.25s;
+      -moz-transform-delay: 0.25s;
+      -ms-transform-delay: 0.25s;
+      transition-delay: 0.25s;
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+      transition: all 0.5s;
+
+      &:hover,
+      &:focus {
+        box-shadow: 0 4px 5px -3px rgba(0, 0, 0, .2), 0 8px 12px 1px rgba(0, 0, 0, .14), 0 3px 15px 3px rgba(0, 0, 0, .12);
+      }
+    }
+
+    .avatar-title {
+      margin-bottom: 5px;
+      color: $second-color;
+      font: 18px $font-regular;
+      font-weight: 500;
+      letter-spacing: -0.22px;
+      line-height: normal;
+      cursor: pointer;
+      -webkit-transform-delay: 0.25s;
+      -moz-transform-delay: 0.25s;
+      -ms-transform-delay: 0.25s;
+      transition-delay: 0.25s;
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+      transition: all 0.5s;
+
+      &:hover,
+      &:focus {
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, .6);
+      }
+    }
+
+    .avatar-nick {
+      color: $light-gray;
+      font: 12px $font-regular;
+      letter-spacing: -0.15px;
+      line-height: 16px;
+    }
+
+    .stats-block {
+      margin-bottom: 35px;
+
+      .stats-title {
+        color: $second-color;
+        font: 18px $font-regular;
+        font-weight: 500;
+        letter-spacing: -0.22px;
+        line-height: normal;
+      }
+
+      .stats-info {
+        padding: 0;
+        color: $light-gray;
+        font: 12px $font-regular;
+        letter-spacing: -0.15px;
+        line-height: 16px;
+      }
+
+      .stats-description {
+        color: $second-color;
+        font-size: 14px;
+      }
+    }
+
+    .block-img {
+      display: flex;
+      margin-bottom: 15px;
+
+      .image {
+        width: 100%;
+        height: 131px;
+        object-fit: cover;
+        -o-object-fit: cover;
+        -webkit-transform-delay: 0.25s;
+        -moz-transform-delay: 0.25s;
+        -ms-transform-delay: 0.25s;
+        transition-delay: 0.25s;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        transition: all 0.5s;
+
+        &:hover,
+        &:focus {
+          -moz-transform: translate(0, 5%);
+          -ms-transform: translate(0, 5%);
+          -webkit-transform: translate(0, 5%);
+          -o-transform: translate(0, 5%);
+          transform: translate(0, 5%);
+        }
+      }
+    }
+  }
+}
+
+.chartjs-render-monitor {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 400px;
+  max-height: 400px;
+}

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalStats.vue should match snapshot 1`] = `
+<div class="py-0 stats-block col col-12">
+  <div class="row">
+    <h3 class="stats-title">
+      Photo's statistic:
+    </h3>
+    <!---->
+    <!---->
+    <!---->
+    <div class="col-12 stats-info">
+      Tags:
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardLarge.vue should match snapshot 1`] = `
+<div class="row card-large"><img src="@/assets/images/no-image.png" alt="card image" class="col-12 col-sm-6 img-block">
+  <div class="py-0 custom-card col-sm-6 col-12">
+    <div class="card-body">
+      <!---->
+      <!---->
+      <!---->
+      <div class="VueCarousel custom-carousel">
+        <div class="VueCarousel-wrapper">
+          <div class="VueCarousel-inner" style="transform: translate(0px, 0); transition: 0.5s ease transform; flex-basis: 0px; visibility: hidden; height: auto;"></div>
+        </div>
+        <!---->
+        <!---->
+      </div>
+      <div class="btn-group"><button type="button" class="btn-order v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default"><span class="v-btn__content">
+          order now
+        </span></button> <button type="button" class="btn-menu v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate mdi mdi-dots-horizontal theme--light"></i></span></button></div>
+    </div>
+    <div class="card-footer">
+      <div class="ml-lg-n6"><button type="button" class="v-btn v-btn--flat v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate mdi mdi-bookmark-outline theme--light"></i></span></button></div>
+      <div>
+        <div><span class="mr-5"><button type="button" class="v-btn v-btn--flat v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate mdi mdi-heart-outline theme--light"></i></span></button> <span class="numbers">
+
+          </span></span> <span><button type="button" class="v-btn v-btn--flat v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate mdi mdi-message-outline theme--light"></i></span></button> <span class="numbers">
+
+          </span></span></div>
+      </div>
+    </div>
+    <!---->
+  </div>
+</div>
+`;

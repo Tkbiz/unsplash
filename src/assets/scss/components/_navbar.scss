@@ -1,0 +1,62 @@
+.custom-navbar {
+  .v-sheet {
+    &.v-app-bar {
+      &.v-toolbar:not(.v-sheet--outlined) {
+        -webkit-box-shadow: 0 2px 69px rgba(0, 0, 0, 0.11);
+        box-shadow: 0 2px 69px rgba(0, 0, 0, 0.11);
+      }
+    }
+
+    .v-toolbar__content {
+      .v-btn {
+        &.v-btn--icon {
+          height: 52px;
+          width: 52px;
+        }
+      }
+    }
+  }
+
+  .v-list {
+    display: flex;
+    background: transparent;
+
+    .v-list-item {
+      flex: auto;
+      margin: 0 12px;
+
+      &:first-child {
+        margin-right: 16px;
+      }
+
+      &:last-child {
+        margin-left: 0;
+        margin-right: 30px;
+      }
+
+      &.v-list-item--active {
+        &:before {
+          opacity: 0;
+        }
+
+        .v-list-item__content {
+          color: $main-color;
+          font-weight: 700;
+        }
+      }
+
+      .v-list-item__content {
+        color: #262c30;
+        font: 13px $font-regular;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+
+        &:hover,
+        &:focus {
+          color: $main-color;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}

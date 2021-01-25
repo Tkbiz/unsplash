@@ -1,0 +1,26 @@
+body {
+  background: $body-bg;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.login-icon {
+  max-height: 18px;
+  max-width: 16px;
+}
+
+.search-icon {
+  max-height: 18px;
+  max-width: 18px;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

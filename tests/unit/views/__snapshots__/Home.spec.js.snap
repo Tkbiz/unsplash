@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home.vue should match snapshot 1`] = `
+<div>
+  <div>
+    <div class="container--fluid main-banner pb-md-16">
+      <div class="row justify-end align-center position-relative ma-0">
+        <div class="container banner-block">
+          <div class="row">
+            <div class="pa-xl-0 col-md-8 col-lg-5 col-xl-4 col-12">
+              <!---->
+              <!----> <button type="button" class="banner-btn v-btn v-btn--depressed theme--light v-size--default"><span class="v-btn__content">
+            explore all
+          </span></button>
+            </div>
+          </div>
+        </div>
+        <div class="position-relative banner-img col-lg-7 col-12">
+          <!---->
+        </div>
+        <div class="container search-position pa-xl-0">
+          <div class="search-nav col col-12">
+            <div class="row">
+              <div class="v-input custom-input v-input--hide-details theme--light v-text-field">
+                <div class="v-input__control">
+                  <div class="v-input__slot">
+                    <div class="v-text-field__slot"><label for="input-149" class="v-label theme--light" style="left: 0px; position: absolute;">Search for high-resolution photos</label><input id="input-149" type="text"></div>
+                    <div class="v-input__append-inner">
+                      <div class="v-image v-responsive search-icon theme--light">
+                        <transition-stub name="fade-transition" mode="in-out">
+                          <div class="v-image__image v-image__image--preload v-image__image--cover" style="background-position: center center;"></div>
+                        </transition-stub>
+                        <div class="v-responsive__content"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="trending">
+                Trending
+              </div>
+              <div class="v-item-group theme--light v-slide-group v-chip-group v-chip-group--column">
+                <div class="v-slide-group__prev v-slide-group__prev--disabled">
+                  <transition-stub name="fade-transition"></transition-stub>
+                </div>
+                <div class="v-slide-group__wrapper">
+                  <div class="v-slide-group__content"><span tabindex="0" class="v-chip v-chip--clickable v-chip--no-color theme--light v-size--default"><span class="v-chip__content">
+          nature
+        </span></span><span tabindex="0" class="v-chip v-chip--clickable v-chip--no-color theme--light v-size--default"><span class="v-chip__content">
+          travel
+        </span></span><span tabindex="0" class="v-chip v-chip--clickable v-chip--no-color theme--light v-size--default"><span class="v-chip__content">
+          animals
+        </span></span><span tabindex="0" class="v-chip v-chip--clickable v-chip--no-color theme--light v-size--default"><span class="v-chip__content">
+          food
+        </span></span><span tabindex="0" class="v-chip v-chip--clickable v-chip--no-color theme--light v-size--default"><span class="v-chip__content">
+          health
+        </span></span><span tabindex="0" class="v-chip v-chip--clickable v-chip--no-color theme--light v-size--default"><span class="v-chip__content">
+          technology
+        </span></span><span tabindex="0" class="v-chip v-chip--clickable v-chip--no-color theme--light v-size--default"><span class="v-chip__content">
+          events
+        </span></span></div>
+                </div>
+                <div class="v-slide-group__next v-slide-group__next--disabled">
+                  <transition-stub name="fade-transition"></transition-stub>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---->
+    <div class="container px-xl-0">
+      <div class="row mx-xl-n4">
+        <div class="d-flex px-xl-4 py-0 mb-8 col-sm-6 col-md-3 col-lg-3 col-12">
+          <div class="v-input custom-select theme--light v-text-field v-text-field--enclosed v-text-field--outlined v-select">
+            <div class="v-input__control">
+              <div role="button" aria-haspopup="listbox" aria-expanded="false" aria-owns="list-163" class="v-input__slot">
+                <fieldset aria-hidden="true">
+                  <legend style="width: 0px;"><span>​</span></legend>
+                </fieldset>
+                <div class="v-select__slot"><label for="input-163" class="v-label theme--light" style="left: 0px; position: absolute;">Any orientation</label>
+                  <div class="v-select__selections"><input id="input-163" readonly="readonly" type="text" aria-readonly="false" autocomplete="off"></div>
+                  <div class="v-input__append-inner">
+                    <div class="v-input__icon v-input__icon--append"><i aria-hidden="true" class="v-icon notranslate mdi mdi-menu-down theme--light"></i></div>
+                  </div><input type="hidden">
+                </div>
+                <div class="v-menu">
+                  <!---->
+                </div>
+              </div>
+              <div class="v-text-field__details">
+                <div class="v-messages theme--light">
+                  <transition-group-stub tag="div" name="message-transition" class="v-messages__wrapper"></transition-group-stub>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mx-xl-n4">
+        <!---->
+        <div class="observer"></div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

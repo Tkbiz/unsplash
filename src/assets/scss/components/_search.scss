@@ -1,0 +1,107 @@
+.search-position {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.search-nav {
+  display: flex;
+  align-items: center;
+  -webkit-align-items: center;
+  height: 80px;
+  box-shadow: 0 24px 32px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  border: 1px solid $light2;
+  background-color: #fff;
+
+  .custom-input {
+    max-width: 500px;
+    margin: 0 25px 0 0;
+    padding-right: 9px;
+    font: $main-size $font-regular;
+
+    .v-input__control {
+      .v-input__slot {
+        &:before {
+          border: none;
+        }
+      }
+    }
+
+    .v-label {
+      color: #71737c;
+      font: $main-size $font-regular;
+      font-weight: 300;
+      letter-spacing: -0.5px;
+      line-height: 24px;
+    }
+
+    .v-input__append-inner {
+      margin-top: 8px;
+    }
+  }
+
+  .trending {
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+    margin-right: 15px;
+    color: $second-color;
+    font: $main-size $font-regular;
+    font-weight: 500;
+  }
+
+  .v-chip-group {
+    .v-slide-group__content {
+      justify-content: flex-end;
+      -webkit-justify-content: flex-end;
+    }
+
+    .v-chip {
+      display: flex;
+      justify-content: center;
+      -webkit-justify-content: center;
+      width: 103px;
+      height: 40px;
+      border-radius: 20px;
+      border: 1px solid #e8e9ef;
+      background: transparent;
+
+      &:focus {
+        &:before {
+          opacity: 0;
+        }
+      }
+
+      &:not(.v-chip--active) {
+        background: transparent;
+      }
+
+      &.v-chip--active {
+        border-color: $dark-gray;
+
+        &:before {
+          opacity: 0;
+        }
+
+        .v-chip__content {
+          color: $dark-gray;
+          font-weight: 500;
+        }
+      }
+
+      .v-chip__content {
+        color: #979cab;
+        font: $main-size $font-regular;
+        letter-spacing: -0.2px;
+        line-height: normal;
+        text-align: center;
+      }
+    }
+  }
+}

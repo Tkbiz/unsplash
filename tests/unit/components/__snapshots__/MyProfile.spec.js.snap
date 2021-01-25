@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyProfile.vue should match snapshot 1`] = `
+<div>
+  <section class="container profile">
+    <div class="row">
+      <div class="py-0 mb-9 col col-12">
+        <div class="row mb-7 align-start justify-center">
+          <!---->
+          <div>
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+          </div>
+        </div>
+        <!---->
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid profile-info">
+    <div class="v-card v-sheet theme--light">
+      <div class="v-tabs v-tabs--icons-and-text theme--light">
+        <div role="tablist" class="v-item-group theme--light v-slide-group v-tabs-bar v-tabs-bar--is-mobile v-tabs-bar--show-arrows primary--text">
+          <div class="v-slide-group__prev v-slide-group__prev--disabled">
+            <transition-stub name="fade-transition"><i aria-hidden="true" class="v-icon notranslate v-icon--disabled mdi mdi-chevron-left theme--light"></i></transition-stub>
+          </div>
+          <div class="v-slide-group__wrapper">
+            <div class="v-slide-group__content v-tabs-bar__content">
+              <div class="v-tabs-slider-wrapper" style="transition: none;">
+                <div class="v-tabs-slider"></div>
+              </div> <a tabindex="0" href="#tab-1" aria-selected="true" role="tab" class="v-tab v-tab--active">
+                Photos
+                <i aria-hidden="true" class="v-icon notranslate mdi mdi-image-multiple theme--light"></i></a> <a tabindex="0" href="#tab-2" aria-selected="false" role="tab" class="v-tab">
+                Likes
+                <i aria-hidden="true" class="v-icon notranslate mdi mdi-heart theme--light"></i></a> <a tabindex="0" href="#tab-3" aria-selected="false" role="tab" class="v-tab">
+                Collections
+                <i aria-hidden="true" class="v-icon notranslate mdi mdi-layers-triple theme--light"></i></a> <a tabindex="0" href="#tab-4" aria-selected="false" role="tab" class="v-tab">
+                Stats
+                <i aria-hidden="true" class="v-icon notranslate mdi mdi-chart-bar theme--light"></i></a>
+            </div>
+          </div>
+          <div class="v-slide-group__next v-slide-group__next--disabled">
+            <transition-stub name="fade-transition"><i aria-hidden="true" class="v-icon notranslate v-icon--disabled mdi mdi-chevron-right theme--light"></i></transition-stub>
+          </div>
+        </div>
+      </div>
+      <div class="v-window v-item-group theme--light v-tabs-items">
+        <div class="v-window__container">
+          <transition-stub name="">
+            <div class="v-window-item v-window-item--active" id="tab-1">
+              <div class="v-card v-card--flat v-sheet theme--light">
+                <div>
+                  <div class="v-card__text">
+                    <div class="collection-title col col-12">
+                      Not found any photos!
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </transition-stub>
+          <transition-stub name="">
+            <!---->
+          </transition-stub>
+          <transition-stub name="">
+            <!---->
+          </transition-stub>
+          <transition-stub name="">
+            <!---->
+          </transition-stub>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

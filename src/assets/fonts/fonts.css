@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "helvetica";
+    src: url("../fonts/HelveticaNeue/HelveticaNeue.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "segoe-ui";
+    src: url("../fonts/SegoeUi/SegoeUi.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

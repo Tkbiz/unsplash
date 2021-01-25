@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserModalInfo.vue should match snapshot 1`] = `
+<div class="py-0 mb-9 col col-12">
+  <div class="row align-center">
+    <div class="v-avatar" style="height: 84px; min-width: 84px; width: 84px;"><img src="@/assets/images/no-image.png" alt="John"></div>
+    <div>
+      <div class="avatar-title">
+        name
+      </div>
+      <!---->
+    </div>
+  </div>
+</div>
+`;

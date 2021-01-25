@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cards.vue should match snapshot 1`] = `
+<div class="container px-xl-0">
+  <div class="row mx-xl-n4">
+    <div class="d-flex px-xl-4 py-0 mb-8 col-sm-6 col-md-3 col-lg-3 col-12">
+      <div class="v-input custom-select theme--light v-text-field v-text-field--enclosed v-text-field--outlined v-select">
+        <div class="v-input__control">
+          <div role="button" aria-haspopup="listbox" aria-expanded="false" aria-owns="list-55" class="v-input__slot">
+            <fieldset aria-hidden="true">
+              <legend style="width: 0px;"><span>​</span></legend>
+            </fieldset>
+            <div class="v-select__slot"><label for="input-55" class="v-label theme--light" style="left: 0px; position: absolute;">Any orientation</label>
+              <div class="v-select__selections"><input id="input-55" readonly="readonly" type="text" aria-readonly="false" autocomplete="off"></div>
+              <div class="v-input__append-inner">
+                <div class="v-input__icon v-input__icon--append"><i aria-hidden="true" class="v-icon notranslate mdi mdi-menu-down theme--light"></i></div>
+              </div><input type="hidden">
+            </div>
+            <div class="v-menu">
+              <!---->
+            </div>
+          </div>
+          <div class="v-text-field__details">
+            <div class="v-messages theme--light">
+              <transition-group-stub tag="div" name="message-transition" class="v-messages__wrapper"></transition-group-stub>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mx-xl-n4">
+    <!---->
+    <div class="observer"></div>
+  </div>
+</div>
+`;

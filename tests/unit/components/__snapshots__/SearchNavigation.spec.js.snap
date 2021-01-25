@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchNavigation.vue should match snapshot 1`] = `
+<div class="container search-position pa-xl-0">
+  <div class="search-nav col col-12">
+    <div class="row">
+      <div class="v-input custom-input v-input--hide-details theme--light v-text-field">
+        <div class="v-input__control">
+          <div class="v-input__slot">
+            <div class="v-text-field__slot"><label for="input-15" class="v-label theme--light" style="left: 0px; position: absolute;">Search for high-resolution photos</label><input id="input-15" type="text"></div>
+            <div class="v-input__append-inner">
+              <div class="v-image v-responsive search-icon theme--light">
+                <transition-stub name="fade-transition" mode="in-out">
+                  <div class="v-image__image v-image__image--preload v-image__image--cover" style="background-position: center center;"></div>
+                </transition-stub>
+                <div class="v-responsive__content"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="trending">
+        Trending
+      </div>
+      <div class="v-item-group theme--light v-slide-group v-chip-group v-chip-group--column">
+        <div class="v-slide-group__prev v-slide-group__prev--disabled">
+          <transition-stub name="fade-transition"></transition-stub>
+        </div>
+        <div class="v-slide-group__wrapper">
+          <div class="v-slide-group__content"></div>
+        </div>
+        <div class="v-slide-group__next v-slide-group__next--disabled">
+          <transition-stub name="fade-transition"></transition-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

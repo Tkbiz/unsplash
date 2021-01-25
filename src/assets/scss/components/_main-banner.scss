@@ -1,0 +1,63 @@
+.main-banner {
+  margin-bottom: 35px;
+
+  .banner-img {
+    padding: 0;
+
+    .v-image {
+      max-height: 980px;
+      max-width: 100%;
+    }
+  }
+
+  .banner-block {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -30%);
+    -moz-transform: translate(-50%, -30%);
+    -ms-transform: translate(-50%, -30%);
+    -o-transform: translate(-50%, -30%);
+    transform: translate(-50%, -30%);
+    z-index: 2;
+
+    .banner-title {
+      margin-bottom: 25px;
+      padding-top: 0;
+      padding-bottom: 0;
+      color: #000;
+      font: 64px 'segoe-ui';
+      letter-spacing: normal;
+    }
+
+    .banner-description {
+      margin-bottom: 20px;
+      padding-top: 0;
+      padding-bottom: 0;
+      color: $second-color;
+      font: $main-size $font-regular;
+      font-weight: 300;
+      letter-spacing: -0.5px;
+      line-height: 25px;
+    }
+
+    .banner-btn {
+      width: 290px;
+      height: 72px;
+      border-radius: 43px;
+
+      &.v-btn.theme--light {
+        background-color: $main-color;
+      }
+
+      .v-btn__content {
+        color: #fff;
+        font: 18px $font-regular;
+        font-weight: 700;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        line-height: 25px;
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardSmall.vue should match snapshot 1`] = `
+<div class="custom-card pa-0 col"><img src="@/assets/images/no-image.png" alt="card image" class="card-img">
+  <div class="card-body">
+    <!---->
+    <!---->
+    <!---->
+  </div>
+  <div class="card-footer">
+    <div class="ml-n2"><button type="button" class="v-btn v-btn--flat v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate mdi mdi-bookmark-outline theme--light"></i></span></button></div>
+    <div>
+      <div><span class="mr-5"><button type="button" class="v-btn v-btn--flat v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate mdi mdi-heart-outline theme--light"></i></span></button> <span class="numbers">
+
+          </span></span> <span><button type="button" class="v-btn v-btn--flat v-btn--icon v-btn--round theme--light v-size--default"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate mdi mdi-message-outline theme--light"></i></span></button> <span class="numbers">
+
+          </span></span></div>
+    </div>
+  </div>
+  <!---->
+</div>
+`;

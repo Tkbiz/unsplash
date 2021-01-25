@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader.vue should match snapshot 1`] = `
+<div class="container">
+  <div class="row py-5 justify-center">
+    <div class="lds-dual-ring"></div>
+  </div>
+</div>
+`;
